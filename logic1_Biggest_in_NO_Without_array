@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+
+int i ,large=0, ele;
+int n;
+printf("Enter a number of elements you want\n");
+scanf("%d ", &n);
+
+printf("Enter %d a numbers",n);
+for(i=1; i<n; i++)
+{
+    scanf("%d",&ele);
+    if(ele>large)
+    {
+       large=ele;
+    }
+}
+printf("%d is a largest number",large);
+
+}
